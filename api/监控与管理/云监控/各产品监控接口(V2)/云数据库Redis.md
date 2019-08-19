@@ -3,9 +3,9 @@
 域名：monitor.api.qcloud.com
 接口：GetMonitorData
 
-云存储 Redis（Cloud Redis Store，以下简称CRS）是腾讯云基于分布式缓存领域多年技术沉淀和 Redis 类业务运营的需求，打造的一款高可用、高可靠的 Redis 服务平台。具体介绍请参考 <a href="/doc/product/239/产品介绍" title="产品介绍">云存储Redis简介</a> 页面。
+云数据库 Redis（Cloud Redis Store，以下简称CRS）是腾讯云基于分布式缓存领域多年技术沉淀和 Redis 类业务运营的需求，打造的一款高可用、高可靠的 Redis 服务平台。具体介绍请参考 <a href="/doc/product/239/产品介绍" title="产品介绍">云存储Redis简介</a> 页面。
 
-查询云存储 Redis 产品监控数据，入参取值如下：
+查询云数据库 Redis 产品监控数据，入参取值如下：
 namespace: qce/redis
 dimensions.0.name=redis_uuid
 dimensions.0.value 为实例的 uuid
